@@ -11,6 +11,7 @@ class Mail extends Model
 
     protected $fillable = [
         'user_id',
+        'name',
         'subject',
         'body',
         'from_email',
